@@ -1,0 +1,54 @@
+body {
+    background-color: #ffcb45;
+}
+
+#content {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 50px 250px;
+    max-width: 600px;
+    margin: 100px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow:10px 20px;
+}
+
+.kotak1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.kotak2 {
+    grid-row-start: 2;
+    grid-row-end: 5;
+    background-image: url(asset/spongebob.png);
+    background-size: cover;
+}
+
+.kotak3 {
+    grid-column-start: 2;
+    grid-column-end: 4 ;
+}
+
+.kotak4 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.kotak5 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.navbarContent {
+    margin-right: 10px;
+    gap: 30px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+h1, p {
+    font-family: 'VT323', monospace;
+}
+
